@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Noakhali Science And technology University"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:paddingTop="3dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="20dp"
+        />
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logonstu"
+        android:layout_marginBottom="10dp"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr.Md humayun kabir"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+
+        android:id="@+id/teacherName"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Associate professor"
+        android:textSize="17sp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:paddingBottom="3dp"
+        android:id="@+id/teacher_designation"
+
+        />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile :"
+        android:textSize="17sp"
+        android:layout_gravity="left"
+        android:textColor="#000"
+        android:paddingBottom="3dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01820922774"
+        android:textSize="17sp"
+        android:paddingRight="5dp"
+        android:textColor="#000"
+        android:paddingBottom="5dp"
+        android:id="@+id/teacher_mobile"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email :"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:paddingBottom="5dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nahidcste@gmail.com"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:id="@+id/teacher_email"
+        android:paddingBottom="5dp"
+
+        />
+
+</LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Computer Science and Telecommunication Engineering"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/teacher_department"
+        android:textColor="#000"
+        />
+
+
+</LinearLayout>

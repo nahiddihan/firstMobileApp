@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="time"
+            android:textColor="#101010"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="date"
+            android:textColor="#101010"
+            android:textSize="16sp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TvPostInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#404040"
+        android:textSize="20sp"
+        android:text="Status for: Computer Fundamental"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/TvPostDesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="Tomorrow the exam will be at 10:00AM ......."
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+</LinearLayout>

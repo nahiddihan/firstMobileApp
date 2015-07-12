@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"  >
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Associate"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="0dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In As :"
+            android:textSize="20sp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:id="@+id/spinnerId"
+            android:spinnerMode="dropdown"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#989898"
+            android:padding="13dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="1dp"
+            android:text="Email Address"
+            android:id="@+id/etEmail"
+            />
+
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#989898"
+            android:padding="13dp"
+            android:text="Password"
+            android:id="@+id/etPassword"
+
+
+            />
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=" LOG IN "
+                android:id="@+id/blogin"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="#E0E0E0"
+                android:textSize="18sp"
+                android:textColor="#888888"
+                />
+
+
+    </LinearLayout>
+
+</LinearLayout>
