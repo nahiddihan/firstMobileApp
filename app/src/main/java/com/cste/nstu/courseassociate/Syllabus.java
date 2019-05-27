@@ -11,6 +11,9 @@ import android.widget.TextView;
  * Created by NAKODIKO on 04-Jun-15.
  */
 public class Syllabus extends Activity {
+	
+	// syllabus activity
+	
     TextView tvCourseTitle,tvCourseCode,tvCourseCredit,tvCreditHour,tvSyllabus;
     Button btBack;
     @Override
@@ -35,6 +38,9 @@ public class Syllabus extends Activity {
         btBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+				
+				// onback press 
+				
               finish();
             }
         });

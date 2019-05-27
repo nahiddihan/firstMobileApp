@@ -30,6 +30,7 @@ import java.util.List;
 public class LoginActivity extends Activity {
 
 
+// Log in activity 
 
     String[] user = new String[]{"Teacher", "Student"};
     String userTable;
@@ -117,6 +118,9 @@ public class LoginActivity extends Activity {
 
 
     class getUserInfo extends AsyncTask<String, String, String> {
+		
+		
+		// get user info
 
         /**
          * Before starting background thread Show Progress Dialog

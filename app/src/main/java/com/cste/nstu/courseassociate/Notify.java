@@ -27,6 +27,9 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Notify extends Activity {
+	
+	// notify activity
+	
     private static final String STUDENT_COURSE = "http://192.168.56.1/course_associate/student_course.php";
     private static final String TEACHER_COURSE = "http://192.168.56.1/course_associate/teacher_course.php";
     private static final String NOTIFY = "http://192.168.56.1/course_associate/notify.php";
@@ -115,6 +118,9 @@ ArrayList<String> courseTitleList;
     }
 
     class getCourseList extends AsyncTask<String, String, String> {
+		
+		
+		// async task for course list
 
         @Override
         protected void onPreExecute() {
